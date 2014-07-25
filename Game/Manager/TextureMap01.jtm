@@ -1,0 +1,84 @@
+// index_key		file_path			centerx	centery	v_frame	h_frame	color_key
+tile			Images/tile.png			0	0	4	4	0
+cracking		Images/cracking.png		0	0	4	1	0
+particle		Images/particle.png		-1	-1	7	2	0
+underground		Images/underground.png		0	0	1	1	0
+
+player			Images/player.png		-1	-1	1	1	0
+player_left		Images/player_left.png		-1	-1	1	1	0
+player_left_walk	Images/player_left_walk.png	-1	-1	4	2	0
+player_right		Images/player_right.png		-1	-1	1	1	0
+player_right_walk	Images/player_right_walk.png	-1	-1	4	2	0
+
+drill			Images/drill.png		-1	-1	9	5	0
+base			Images/base.png			48	64	1	1	0
+ship			Images/ship.png			24	64	2	1	0
+smoke			Images/smoke.png		-1	-1	1	1	0
+
+enter_message		Images/enter_message.png	-1	-1	1	1	0
+ui_goal			Images/ui_goal.png		0	0	1	1	0
+ui_resources		Images/ui_resources.png		0	0	1	1	0
+ui_cargo		Images/ui_cargo.png		0	0	1	1	0
+ui_jetpack		Images/ui_jetpack.png		0	0	1	1	0
+ui_health		Images/ui_health.png		0	0	1	1	0
+ui_oxygen		Images/ui_oxygen.png		0	0	1	1	0
+ui_building		Images/ui_building.png		0	0	1	1	0
+ui_bosshp		Images/ui_bosshp.png		0	0	1	1	0
+buildings_small		Images/buildings_small.png	0	0	2	5	0
+newbox			Images/newbox.png		0	8	1	1	0
+researchbox		Images/researchbox.png		39	0	1	1	0
+fullbox			Images/fullbox.png		0	13	1	1	0
+airleakbox		Images/airleakbox.png		29	19	1	1	0
+
+logo			Images/logo.png			0	0	1	1	0
+pause			Images/pause.png		-1	-1	1	1	0
+
+control1		Images/controls1.png		0	0	1	1	0
+control2		Images/controls2.png		0	0	1	1	0
+control3		Images/controls3.png		0	0	1	1	0
+control4		Images/controls4.png		0	0	1	1	0
+
+background		Images/background.png		0	0	1	1	0
+background_grandma	Images/background_grandma.png	0	0	1	1	0
+gradient		Images/gradient.png		0	0	1	1	0
+warning_gradient	Images/warning_gradient.png	0	0	1	1	0
+
+gauge			Images/gauge.png		0	0	13	1	0
+gauge2			Images/gauge2.png		0	0	1	3	0
+gauge3			Images/gauge3.png		0	0	1	1	0
+gaugeback		Images/gaugeback.png		0	0	1	1	0
+
+numbers			Images/numbers.png		0	0	11	2	0
+big_numbers		Images/big_numbers.png		0	0	13	1	0
+font			Images/font.png			0	0	10	8	0
+processing		Images/processing.png		0	0	5	1	0
+
+basemenu01		Images/basemenu01.png		-1	-1	1	1	0
+basemenu02		Images/basemenu02.png		-1	-1	1	1	0
+basemenu03		Images/basemenu03.png		-1	-1	1	1	0
+basemenu_control	Images/basemenu_control.png	262	33	1	1	0
+
+upgrades		Images/upgrades.png		0	0	3	6	0
+resources		Images/resources.png		0	0	2	7	0
+buildings		Images/buildings.png		0	0	2	5	0
+buttons			Images/buttons.png		0	0	1	1	0
+
+light			Images/light.png		0	16	1	1	0
+wpp			Images/wpp.png			0	48	4	1	0
+gpp			Images/gpp.png			0	16	1	1	0
+small_camp		Images/small_camp.png		0	32	1	1	0
+
+uboss			Images/uboss.png		64	256	2	1	0
+uboss_eye		Images/uboss_eye.png		0	0	1	3	0
+uboss_bottom		Images/uboss_bottom.png		-1	-1	4	2	0
+uboss_bottom_big	Images/uboss_bottom_big.png	-1	-1	6	1	0
+uboss_bullet		Images/uboss_bullet.png		-1	-1	4	4	0
+uboss_drop		Images/uboss_drop.png		-1	-1	4	1	0
+uboss_particle		Images/uboss_particle.png	-1	-1	4	4	0
+
+cookie			Images/cookie.png		-1	-1	2	2	0
+cookie_particle		Images/cookie_particle.png	-1	-1	4	2	0
+cursor_bullet		Images/cursor_bullet.png	-1	-1	4	4	0
+cursor_particle		Images/cursor_particle.png	-1	-1	4	4	0
+
+the_end			Images/the_end.png		-1	-1	1	1	0

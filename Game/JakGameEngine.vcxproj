@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (Test Mode)|Win32">
+      <Configuration>Release (Test Mode)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9FB034BD-9124-442D-84F6-0BDCCA3F06F1}</ProjectGuid>
+    <RootNamespace>JakGameEngine</RootNamespace>
+    <ProjectName>SmallPlanet</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (Test Mode)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (Test Mode)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Programming\Libs\physfs-2.0.3;%DXSDK_DIR%\include;D:\Programming\libogg\include;D:\Programming\libvorbis\include;D:\Programming\Libs\freetype-2.4.11\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>D:\Programming\Libs\physfs-2.0.3\lib;%DXSDK_DIR%\lib\x86;D:\Programming\libvorbis\lib;D:\Programming\Libs\freetype-2.4.11\objs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\Programming\Libs\physfs-2.0.3;%DXSDK_DIR%\include;D:\Programming\libogg\include;D:\Programming\libvorbis\include;D:\Programming\Libs\freetype-2.4.11\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Programming\Libs\physfs-2.0.3\lib;%DXSDK_DIR%\lib\x86;D:\Programming\libvorbis\lib;D:\Programming\Libs\freetype-2.4.11\objs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (Test Mode)|Win32'">
+    <LibraryPath>D:\Programming\Libs\physfs-2.0.3\lib;%DXSDK_DIR%\lib\x86;D:\Programming\libvorbis\lib;D:\Programming\Libs\freetype-2.4.11\objs;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Programming\Libs\physfs-2.0.3;%DXSDK_DIR%\include;D:\Programming\libogg\include;D:\Programming\libvorbis\include;D:\Programming\Libs\freetype-2.4.11\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NORELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;xinput.lib;winmm.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;freetype2411MDd.lib;physfs.lib;imm32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;xinput.lib;winmm.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;freetype2411.lib;physfs.lib;imm32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (Test Mode)|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PreprocessorDefinitions>NORELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;xinput.lib;winmm.lib;libogg.lib;libvorbis.lib;libvorbisfile.lib;freetype2411MDd.lib;physfs_debug.lib;imm32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseCamp.h" />
+    <ClInclude Include="BaseMenu.h" />
+    <ClInclude Include="BGM.h" />
+    <ClInclude Include="BGMManager.h" />
+    <ClInclude Include="BlockParticle.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Boss_Cookie.h" />
+    <ClInclude Include="Boss_Unobtainium.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="CCircle.h" />
+    <ClInclude Include="EditBox.h" />
+    <ClInclude Include="FileEncryptor.h" />
+    <ClInclude Include="FTFont.h" />
+    <ClInclude Include="FTFontManager.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="GameHUD.h" />
+    <ClInclude Include="JDirectX.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="JIme.h" />
+    <ClInclude Include="JInput.h" />
+    <ClInclude Include="JMain.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="CRect.h" />
+    <ClInclude Include="CRightangledTriangle.h" />
+    <ClInclude Include="CriticalSection.h" />
+    <ClInclude Include="JSprite.h" />
+    <ClInclude Include="MapGenerator.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="PhysFSStream.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PP_Gamma.h" />
+    <ClInclude Include="Scene_Game.h" />
+    <ClInclude Include="Scene_Logo.h" />
+    <ClInclude Include="StringHash.h" />
+    <ClInclude Include="TCP_Client.h" />
+    <ClInclude Include="TCP_Server.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="JWindows.h" />
+    <ClInclude Include="JXAudio.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Essential.h" />
+    <ClInclude Include="Decryptor.h" />
+    <ClInclude Include="Encryptor.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="GlobalDataManager.h" />
+    <ClInclude Include="GameObj.h" />
+    <ClInclude Include="JFreeType.h" />
+    <ClInclude Include="MovablePosition.h" />
+    <ClInclude Include="MyException.h" />
+    <ClInclude Include="MyMath.h" />
+    <ClInclude Include="PixelMaskingProcessing.h" />
+    <ClInclude Include="PixelProcessing.h" />
+    <ClInclude Include="PMP_Blurring.h" />
+    <ClInclude Include="PP_InverseColor.h" />
+    <ClInclude Include="PP_MonoColor.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="SE.h" />
+    <ClInclude Include="SEManager.h" />
+    <ClInclude Include="StringInputModule.h" />
+    <ClInclude Include="TcharSupport.h" />
+    <ClInclude Include="Smoke.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseCamp.cpp" />
+    <ClCompile Include="BaseMenu.cpp" />
+    <ClCompile Include="BGM.cpp" />
+    <ClCompile Include="BGMManager.cpp" />
+    <ClCompile Include="BlockParticle.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Boss_Cookie.cpp" />
+    <ClCompile Include="Boss_Unobtainium.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="CCircle.cpp" />
+    <ClCompile Include="EditBox.cpp" />
+    <ClCompile Include="FileEncryptor.cpp" />
+    <ClCompile Include="FTFont.cpp" />
+    <ClCompile Include="FTFontManager.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="GameHUD.cpp" />
+    <ClCompile Include="JDirectX.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="JFreeType.cpp" />
+    <ClCompile Include="JIme.cpp" />
+    <ClCompile Include="JInput.cpp" />
+    <ClCompile Include="JMain.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CRect.cpp" />
+    <ClCompile Include="CRightangledTriangle.cpp" />
+    <ClCompile Include="CriticalSection.cpp" />
+    <ClCompile Include="JSprite.cpp" />
+    <ClCompile Include="MapGenerator.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="PhysFSStream.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PP_Gamma.cpp" />
+    <ClCompile Include="Scene_Game.cpp" />
+    <ClCompile Include="Scene_Logo.cpp" />
+    <ClCompile Include="StringHash.cpp" />
+    <ClCompile Include="TCP_Client.cpp" />
+    <ClCompile Include="TCP_Server.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="JWindows.cpp" />
+    <ClCompile Include="JXAudio.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Decryptor.cpp" />
+    <ClCompile Include="Encryptor.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="GlobalDataManager.cpp" />
+    <ClCompile Include="GameObj.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MovablePosition.cpp" />
+    <ClCompile Include="MyException.cpp" />
+    <ClCompile Include="MyMath.cpp" />
+    <ClCompile Include="PixelMaskingProcessing.cpp" />
+    <ClCompile Include="PixelProcessing.cpp" />
+    <ClCompile Include="PMP_Blurring.cpp" />
+    <ClCompile Include="PP_InverseColor.cpp" />
+    <ClCompile Include="PP_MonoColor.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SE.cpp" />
+    <ClCompile Include="SEManager.cpp" />
+    <ClCompile Include="StringInputModule.cpp" />
+    <ClCompile Include="TcharSupport.cpp" />
+    <ClCompile Include="Smoke.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+// index_key	data_size	init_value
+fullscreen	1		0
+soundvolume	4		10
+cleared		1		0

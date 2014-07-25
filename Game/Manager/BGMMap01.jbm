@@ -1,0 +1,13 @@
+// index_key	file_name			loop(0/1)	loopback_point(sample_rate*박자*마디*60/bpm)
+air_warning	Sounds/BGM/airwarning.ogg	1		0
+air_leak	Sounds/BGM/air_leak.ogg		1		0
+jetpack		Sounds/BGM/jetpack.ogg		1		0
+lava		Sounds/BGM/lava.ogg		1		0
+machine		Sounds/BGM/machine.ogg		1		0
+trembling	Sounds/BGM/trembling.ogg	1		0
+rocket		Sounds/BGM/rocket.ogg		1		0
+small_planet	Sounds/BGM/small_planet.ogg	1		668463
+unobtainium	Sounds/BGM/unobtainium.ogg	1		470400
+unobtainium_rage Sounds/BGM/unobtainium_rage.ogg 1		403200
+cookieclicker	Sounds/BGM/cookieclicker.ogg	1		940800
+cookieclicker_rage Sounds/BGM/cookieclicker_rage.ogg 1		762811

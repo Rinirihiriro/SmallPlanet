@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Engine">
+      <UniqueIdentifier>{7781d1b2-b12b-49bb-9d19-3abb2c4a7d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Core">
+      <UniqueIdentifier>{5cee53aa-afdf-40b3-8965-8c8c5fa5d7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\NewFilter1">
+      <UniqueIdentifier>{df96256d-6dc9-4731-8157-9726d7c93766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Managers">
+      <UniqueIdentifier>{5a5f3b43-b998-4fc0-8d86-1f3105f705d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Objects">
+      <UniqueIdentifier>{334e25dc-0292-4d5d-8ab9-db17e5cce9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\PixelProcessing">
+      <UniqueIdentifier>{0cb2e02a-c9ee-4c7b-8723-3549814e638e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Objects">
+      <UniqueIdentifier>{2c5c75fb-debb-49bf-814b-10c31407c396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine">
+      <UniqueIdentifier>{6b77abf9-ba17-4741-8821-8f5fd57408cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\Object">
+      <UniqueIdentifier>{d27de1b5-9217-4fb8-a984-d0d1f053c22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\PixelProcessing">
+      <UniqueIdentifier>{3961ad5b-50a1-4729-b0d3-4317a4f3c038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\NewFilter1">
+      <UniqueIdentifier>{7eb286b6-6896-47a6-ae35-55f25e016316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\Manager">
+      <UniqueIdentifier>{a6786990-724c-45d7-8a64-251a65684323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\Core">
+      <UniqueIdentifier>{0ecb28b2-1ef7-42fa-89ca-1b6e1895cacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Objects">
+      <UniqueIdentifier>{74fafc3d-57bb-4729-b6f6-d9981a47c256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{f8d52cf2-f4f4-4b93-b74f-d868f3bbde7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Scene">
+      <UniqueIdentifier>{f49268f8-0831-4796-acce-b54df317d4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Manager">
+      <UniqueIdentifier>{0ee61244-2d21-4292-be1e-9a247b54d3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{e5239606-5885-4d55-8d79-97a06ca09ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\IO">
+      <UniqueIdentifier>{011ad6bc-4956-48c5-b01c-3880ea68e755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\IO">
+      <UniqueIdentifier>{79cb8c2c-583e-4baa-bcdf-0a21bbc6e428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Network">
+      <UniqueIdentifier>{53088ab4-802f-45fe-880d-17b03e1d6f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\Network">
+      <UniqueIdentifier>{3ef2ca52-9f0d-4dba-9346-d8ceac16567c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine\Objects\Control">
+      <UniqueIdentifier>{d9fe8721-7a15-4069-832e-02220213492a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine\Object\Control">
+      <UniqueIdentifier>{08eb3c48-777c-40cd-9fea-db2b8b6c330d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BGMManager.h">
+      <Filter>헤더 파일\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SEManager.h">
+      <Filter>헤더 파일\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BGM.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CRect.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircle.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyException.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SE.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="StringInputModule.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>헤더 파일\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelMaskingProcessing.h">
+      <Filter>헤더 파일\Engine\PixelProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelProcessing.h">
+      <Filter>헤더 파일\Engine\PixelProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PMP_Blurring.h">
+      <Filter>헤더 파일\Engine\PixelProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PP_MonoColor.h">
+      <Filter>헤더 파일\Engine\PixelProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PP_InverseColor.h">
+      <Filter>헤더 파일\Engine\PixelProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CRightangledTriangle.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="TcharSupport.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MovablePosition.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="JFreeType.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="JDirectX.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="JInput.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="JSprite.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="JWindows.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="JXAudio.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>헤더 파일\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>헤더 파일\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="JMain.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FTFont.h">
+      <Filter>헤더 파일\Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="FTFontManager.h">
+      <Filter>헤더 파일\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PP_Gamma.h">
+      <Filter>헤더 파일\Engine\PixelProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryptor.h">
+      <Filter>헤더 파일\Engine\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Decryptor.h">
+      <Filter>헤더 파일\Engine\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileEncryptor.h">
+      <Filter>헤더 파일\Engine\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDataManager.h">
+      <Filter>헤더 파일\Engine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysFSStream.h">
+      <Filter>헤더 파일\Engine\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBox.h">
+      <Filter>헤더 파일\Engine\Object\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="JIme.h">
+      <Filter>헤더 파일\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP_Client.h">
+      <Filter>헤더 파일\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP_Server.h">
+      <Filter>헤더 파일\Engine\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHash.h">
+      <Filter>헤더 파일\Engine\NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Game.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockParticle.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Logo.h">
+      <Filter>헤더 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHUD.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Unobtainium.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Cookie.h">
+      <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BGMManager.cpp">
+      <Filter>소스 파일\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SEManager.cpp">
+      <Filter>소스 파일\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BGM.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SE.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircle.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="CRect.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMath.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MyException.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="StringInputModule.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelMaskingProcessing.cpp">
+      <Filter>소스 파일\Engine\PixelProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelProcessing.cpp">
+      <Filter>소스 파일\Engine\PixelProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="PMP_Blurring.cpp">
+      <Filter>소스 파일\Engine\PixelProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="PP_MonoColor.cpp">
+      <Filter>소스 파일\Engine\PixelProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="PP_InverseColor.cpp">
+      <Filter>소스 파일\Engine\PixelProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CRightangledTriangle.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="TcharSupport.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MovablePosition.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="JMain.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="JDirectX.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="JInput.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="JSprite.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="JWindows.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="JXAudio.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="JFreeType.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>소스 파일\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>소스 파일\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FTFont.cpp">
+      <Filter>소스 파일\Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="FTFontManager.cpp">
+      <Filter>소스 파일\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PP_Gamma.cpp">
+      <Filter>소스 파일\Engine\PixelProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryptor.cpp">
+      <Filter>소스 파일\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Decryptor.cpp">
+      <Filter>소스 파일\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="FileEncryptor.cpp">
+      <Filter>소스 파일\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalDataManager.cpp">
+      <Filter>소스 파일\Engine\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysFSStream.cpp">
+      <Filter>소스 파일\Engine\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBox.cpp">
+      <Filter>소스 파일\Engine\Objects\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="JIme.cpp">
+      <Filter>소스 파일\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP_Client.cpp">
+      <Filter>소스 파일\Engine\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP_Server.cpp">
+      <Filter>소스 파일\Engine\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHash.cpp">
+      <Filter>소스 파일\Engine\NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Game.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockParticle.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Logo.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCamp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHUD.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Unobtainium.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Cookie.cpp">
+      <Filter>소스 파일\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
